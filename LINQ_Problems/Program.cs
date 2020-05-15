@@ -12,7 +12,9 @@ namespace LINQ_Problems
         {
 
             List<string> wordLibrary = new List<string>() { "the", "bike", "this", "it", "tenth", "mathematics" };
-            
+            List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
+
+
 
 
             var queryWordsByLetterCombination = wordLibrary.Where(w => w.Contains("th")).ToList();
